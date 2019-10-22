@@ -15,7 +15,7 @@
             echo "<div style = 'background-color:#EEE;'>";
             echo "<pre>"; 
             var_dump($this->_checkCardsForStraightOrStraightFlush($randomCards)); 
-            //var_dump($this->_checkCardsForStraightOrStraightFlush(array('kd', 'jh', 'qc', '10s', 'ah'))); 
+            var_dump($this->_checkCardsForStraightOrStraightFlush(array('kd', 'jh', 'qc', '10s', 'ah'))); 
             echo "</pre>";
             echo "</div>";        
         }
